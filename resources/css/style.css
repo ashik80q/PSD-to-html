@@ -1,0 +1,181 @@
+/* ===================*/
+/* BASIC SETUP */
+/* =================== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size:62.5%;
+}
+ul li{
+    list-style:none;
+}
+h1{
+    font-size: 3rem;
+    color: #fff;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    text-rendering:optimizeLegibility;
+    line-height: 1.3rem;
+}
+/* ===================*/
+/* Reuseable component */
+/* =================== */
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+section{
+    padding:8rem 0;
+   
+}
+h2{
+    font-size: 4rem;
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+h2::after{
+  content: "";
+  display:block ;
+  height: .4rem;
+  background: white;
+  width: 8.5rem;
+  margin: auto;
+  margin-top: 2rem;
+  text-align: center;
+}
+h3{
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.box{
+ padding: 1%;
+}
+.box p{
+    font-size: 1.6rem;
+    font-weight: 300;
+    margin: 2rem;
+}
+/*--Button--*/
+.btn:link,
+.btn:visited,
+.btn{
+    background: #333;
+    color:#fff;
+    border-bottom:.3rem solid #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 6rem;
+    display: inline-block;
+    margin-top: 4.5rem;
+    font-size: 1.6rem;
+  
+}
+/*---little-description paragraph--*/
+.little-description{
+  font-size: 1.8rem;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 2rem;
+}
+/* ===================*/
+/* Header section */
+/* =================== */
+header{
+    background:linear-gradient(rgba(135, 80, 156, 0.9), rgba(85, 33, 105, 0.9)),url(./img/hero-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    background-attachment: fixed;
+    height: 85vh;
+    position: relative;
+}
+.logo{
+    height: 3.5rem;
+    width: auto;
+    margin-top:3.5rem;
+    float: left;
+}
+/*==== main-navigation===*/
+.main-nav{
+    float: right;
+    margin-top: 4rem;
+}
+.main-nav li:first-child{
+    margin-left: 0;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left:1rem;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform:uppercase;
+    background: rgba(100, 58, 121, 0);
+    padding: .6rem 1.6rem;
+    border-radius: .4rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .5s;
+
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    background: rgba(100, 58, 121, 1);
+}
+.active{
+    border-radius: .4rem;
+    background: rgba(100, 58, 121, 1);
+}
+.hero_text_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    text-align: center;
+
+}
+.btn-hero:link,
+.btn-hero:visited{
+    background: #EB7D4B;
+    border-color: #C86A40;
+   
+}
+/* ===================*/
+/* Services section */
+/* =================== */
+
+.services-section{
+    background: linear-gradient(rgba(26, 146, 124, 0.9), rgba(51, 99, 90, 0.9)), url(../css/img/services-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+}
+.services-section h2::after{
+    background: #14A58C;
+
+}
+.services-icon{
+    height: 12rem;
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+}
