@@ -26,7 +26,7 @@ h1{
 body {
     font-family: 'Titillium Web', sans-serif;
     text-rendering:optimizeLegibility;
-    line-height: 1.3rem;
+   
 }
 /* ===================*/
 /* Reuseable component */
@@ -47,6 +47,7 @@ h2{
     margin-top: 0;
     margin-bottom: 2rem;
     color: #fff;
+    text-align: center;
 }
 h2::after{
   content: "";
@@ -62,6 +63,7 @@ h3{
     font-size: 2.4rem;
     text-transform: uppercase;
     font-weight: 600;
+    color: #fff;
 }
 .box{
  padding: 1%;
@@ -166,7 +168,7 @@ header{
     background: linear-gradient(rgba(26, 146, 124, 0.9), rgba(51, 99, 90, 0.9)), url(../css/img/services-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
     color: #fff;
     text-align: center;
 }
@@ -179,3 +181,66 @@ header{
     margin-top: 4.5rem;
     margin-bottom: 3.5rem;
 }
+/* ===================*/
+/* Team section */
+/* =================== */
+.team-section{
+    background: linear-gradient(rgb(231, 241, 248, .9), rgb(231, 241, 248, .9)), url(./img/team-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    text-align: center;
+}
+.team-section h2{
+    color:#3C4761;
+}
+.team-section h2::after{
+    background: #C8D9E5;
+}
+.team-member{
+    margin-top: 4.5rem;
+    margin-bottom: 3.5rem;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 50%;
+}
+.team-section h3{
+    color: #27283d;
+}
+.role{
+    color: #92D7F0;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    margin-top: .5rem;
+}
+.team-section .box p{
+    color:#535E75;
+    
+}
+.social-link{
+    margin-top: 4.5rem;
+}
+.social-link ul li {
+    display: inline-block;
+    margin: 0 .5rem;
+}
+.social-link ul li a:link {
+    color: white;
+}
+.social-link ul li a:link i::before{
+    background: #BDD1DF;
+    color: #fff;
+    padding: 1rem;
+    width: 2rem;
+    height: 2rem;
+    font-size: 2rem;
+    display:inline-block;
+    border-radius: 50%;
+    transition: all .8s;
+}
+.social-link ul li a:hover i::before{
+    background: #a84f4f;
+    transform: rotate(360deg);
+}
+
