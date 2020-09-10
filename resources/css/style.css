@@ -428,6 +428,7 @@ svg.ui-ux circle{
     color: #fff;
     opacity: 1;
 }
+
 .btn-submit{
     border:0;
     background: #14A58C;
@@ -457,4 +458,21 @@ footer li a {
 }
 footer li a:hover{
     color: #30BAE7;
+}
+/*----- sticky navbar---*/
+.sticky{
+    position:fixed;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: rgba(135, 80, 156, 0.9);
+    padding: 1rem 0;
+    box-shadow: 0 .2rem .5rem rgba(255, 255, 255 );
+}
+.sticky .logo{
+    margin-top: 0;
+}
+.sticky .logo,
+.sticky  .main-nav{
+    margin-top: .2rem;
 }
