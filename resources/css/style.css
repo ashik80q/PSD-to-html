@@ -435,3 +435,26 @@ svg.ui-ux circle{
     border-radius: .5rem;
     outline: none;
 }
+/* ===================*/
+/* start Footer section */
+/* =================== */
+footer{
+    background: #344B8E;
+    padding: 3rem 0;
+    text-align: center;
+    border-top: .1rem solid rgba(255, 255, 255, 0.315);
+}
+footer li{
+    display: inline-block;
+    margin: 0 2rem;
+}
+footer li a {
+    color: #fff;
+    font-size: 2.4rem;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+footer li a:hover{
+    color: #30BAE7;
+}
