@@ -8,6 +8,7 @@
 }
 html{
     font-size:62.5%;
+    scroll-behavior:smooth;
 }
 ul li{
     list-style:none;
@@ -26,6 +27,7 @@ h1{
 body {
     font-family: 'Titillium Web', sans-serif;
     text-rendering:optimizeLegibility;
+    
    
 }
 /* ===================*/
@@ -209,6 +211,7 @@ header{
     color: #27283d;
 }
 .role{
+    display: inline-block;
     color: #92D7F0;
     font-size: 1.6rem;
     text-transform: capitalize;
@@ -242,5 +245,45 @@ header{
 .social-link ul li a:hover i::before{
     background: #a84f4f;
     transform: rotate(360deg);
+}
+/* ===================*/
+/* BASIC SETUP */
+/* =================== */
+.skill-section{
+    background:linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.9)),url(./img/skill-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.skill-section h2,
+.skill-section h3,
+.skill-section .little-description{
+    color: #3C4761;
+}
+.skill-section h2::after{
+    background: #DFE8ED;
+}
+.skill-section .box{
+    margin-top: 4.2rem;
+}
+svg.radial-progress circle{
+    stroke-width: 8;
+
+}
+svg.radial-progress text{
+    fill: #3C4761;
+    font-size: 1.5rem;
+}
+svg.web-design circle{
+    stroke: #30BAE7;
+}
+svg.html-css circle{
+    stroke: #D74680;
+}
+svg.graphic-design circle{
+    stroke: #15C7A8;
+}
+svg.ui-ux circle{
+    stroke: #EB7D4B;
 }
 
