@@ -286,4 +286,152 @@ svg.graphic-design circle{
 svg.ui-ux circle{
     stroke: #EB7D4B;
 }
+/* ===================*/
+/* start portfolio section */
+/* =================== */
+.portfolio-section{
+    background:linear-gradient( rgba(255, 221, 153, 0.9), rgba(255, 221, 153, 0.9)), url(./img/portfolio-bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+.portfolio-section h2{
+    color: #393939;
+}
+.portfolio-section h2::after{
+    background: #E5C37F;
+}
+.portfolio-filter {
+    margin: 4.5rem 0;
+    
+}
+.portfolio-filter button{
+    background: #EBC985;
+    margin: 0 .5rem;
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    border-radius: .3rem;
+    font-size: 1.8rem;
+    border:0;
+    outline: none;
+    transition: .5s;
+}
+.portfolio-filter button:hover{
+    cursor: pointer;
+    box-shadow: 0 0.3rem .5rem rgba(131, 117, 89, 0.87);
+}
+.container .col:nth-child(3){
+    margin-left: 0;
+}
+.container .col h4{
+    color: #393939;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 2.5rem 0;
+}
+.portfolio-section .mixitup-control-active{
+    background:#fff;
+} 
+/* ===================*/
+/* start portfolio section */
+/* =================== */
+.testimonial{
+    background:linear-gradient(rgba(215, 70, 128, 0.9),rgba(215, 70, 128, 0.9)), url(./img/testimonial-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    
+    color: #fff;
+}
+.testimonial h2::after{
+    background: #B73C6D;
+}
+..testimonial h2{
+    font-weight: 400;
+}
 
+.testimonial .col:nth-child(3){
+    margin-left: 0;
+}
+.testimonial .col:nth-child(1),
+.testimonial .col:nth-child(2){
+
+    margin-top: 4rem;
+}
+.testimonial .col:nth-child(3),
+.testimonial .col:nth-child(4){
+    margin-top: 8rem;
+}
+.testimonial .cline-photo{
+    width: 10rem;
+    float: left;
+}
+.testimonial .cline-photo img{
+    height: 8rem;
+    border-radius: 50%;
+    margin-bottom: 3rem;
+}
+.testimonial p{
+    margin: 0;
+    font-size: 2.1rem;
+    font-style: italic;
+    margin-bottom: 2rem;
+
+}
+.testimonial .cline-review{
+    width: 30rem;
+    float: left;
+}
+.testimonial .cline-review span{
+    color: #F4B592;
+    margin-top: 1rem;
+}
+/* ===================*/
+/* start portfolio section */
+/* =================== */
+.contact-section{
+    background:linear-gradient(rgba(60, 83, 153, 0.9), rgba(60, 83, 153, 0.9)), url(./img/contact-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center top;
+    background-attachment: fixed;
+    text-align: center;
+}
+.contact-section h2::after{
+  background: #273A71;
+}
+.contact-section p{
+    font-size: 1.8rem;
+    color: #fff;
+}
+.contact-section form{
+    margin-top: 4.5rem;
+    width: 70%;
+    margin-left: 15%;
+}
+.contact-section input[type="text"],
+.contact-section input[type="email"],
+.contact-section textarea{
+  background:#273A71;
+  border: .1rem solid #273A71;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: .5rem;
+  font-size: 1.8rem;
+  color: #fff;
+  margin: .5rem 0;
+  outline: none;
+}
+.contact-section form ::placeholder{
+    color: #fff;
+    opacity: 1;
+}
+.btn-submit{
+    border:0;
+    background: #14A58C;
+    border-bottom: .3rem solid #2dcab0;
+    border-radius: .5rem;
+    outline: none;
+}
