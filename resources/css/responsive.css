@@ -1,0 +1,122 @@
+
+@media only screen and (max-width: 1200px){
+    header{
+        height: 80.5vh !important;
+    }
+ 
+    .row{
+        margin: 0 15px;
+    }
+    .hero_text_box{
+        
+        margin:20px auto;
+    }
+   
+    .hero_text_box{
+        width: 90% !important;
+        margin: 0 auto;
+    }
+  
+}
+@media only screen and (max-width: 1024px){
+   
+    header{
+        height: 55.5vh;
+    }
+    
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .cline-photo{
+        width: 80% !important;
+        float: none !important;
+        text-align: center !important;
+        margin: auto;
+    }
+    .cline-review{
+        width: 100% !important;
+        float: none !important;
+        text-align: center !important;
+    }
+    .contact-section form{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+}
+@media only screen and (max-width: 980px){
+    .span_1_of_4{
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin-left: 0;
+    }
+    html{
+        font-size: 58.5%;
+    }
+    .hero_text_box {
+       margin-right:1rem !important;
+    }
+
+}
+@media only screen and (max-width: 768px){
+    header{
+        height: 60vh;
+    }
+    .little-description{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 480px){
+    header{
+        height: 65vh;
+    }
+    .span_1_of_4{
+        width:100%;
+    }
+    .cline-photo{
+        margin: auto;
+    }
+    h1{
+        font-size: 2.5rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+    .testimonial .col:nth-child(3),
+    .testimonial .col:nth-child(4){
+        margin-top: 4rem;
+}
+    
+}
+@media only screen and (max-width: 300px){
+    .portfolio-filter button{
+      
+        font-size: 1.2rem;
+      
+    }
+    .contact-section p{
+        font-size: 1.4rem;
+    }
+   
+        
+}
+    
