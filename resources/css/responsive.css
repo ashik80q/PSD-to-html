@@ -48,6 +48,9 @@
     h1{
         font-size: 3.5rem;
     }
+    .mobile-menu span{
+        display: block;
+    }
 }
 @media only screen and (max-width: 980px){
     .span_1_of_4{
